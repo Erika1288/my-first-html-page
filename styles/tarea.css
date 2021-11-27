@@ -1,0 +1,204 @@
+html{
+    background-color: rgb(226, 226, 226);
+}
+header{
+    background-color: white;
+    width: 1440px;
+    height: 76px;
+    align-items: center; 
+    position: fixed;
+}
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/*clases flex*/
+.flexgrow{
+    flex-grow: 2;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+
+/*css header*/
+.textoHeader a{
+    margin: 0px 20px;
+    color:rgb(13,132,211);
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'inter';
+}
+
+.textoHeader{
+    padding: 0.5em 8em;
+}
+
+#logo{
+    width: 223px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#idioma{
+    color:rgb(13,132,211);
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'inter';
+    padding: 0px 210px 0px 0px;
+}
+
+/*css div bienvenida*/
+#textoInicio{
+    color: white;
+    margin: 0px;
+    padding: 104px 30px 50px 68px;
+    font-family:serif;
+    font-weight: lighter;
+    font-size:56px;;
+
+
+}
+
+.contenedor{
+    background-image: url('../images/wp2632872.webp');
+    height: 646px;
+    background-size: 1440px;
+    background-position: center;
+    padding-top: 240px;
+}
+ 
+#boton{
+    width: 241px;
+    height: 40px;
+    margin-left: 70px;
+}
+
+.contenedor_video {
+    height: 300px;
+}
+
+/*css div mapas*/
+.contenedor_mapas{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+}
+
+.imagenesMapas img{
+    width: 398px;
+    height: 235px;
+}
+
+.imagenesMapas a{
+    font-family:'inter';
+    color: white;
+    font-size: 36px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.imagenesMapas{
+    margin: 20px;
+}
+
+
+#textoMapas{
+    color: white;
+    font-size: 72px;
+    font-family: 'inter';
+    font-weight: lighter;
+    align-items: center;
+    margin: 0em 5em;
+}
+
+#div_general{
+    width: 1440px;
+    height: 1024px;
+    background-color: rgb(143, 143, 143);
+}
+
+/*div resturantes*/
+.restaurantes{
+    background-image: url('../images/image\ 8.png');
+    width: 1440px;
+    height: 1024px;
+}
+
+#aside h1{
+    justify-content: right;
+    margin: 0px;
+    font-family: 'inter';
+    font-weight: bold;
+    font-size: 34px;
+    margin-left: 23em ;
+    padding-top: 1em;
+}
+
+#aside p{
+    margin: 0px;
+    font-family: 'inter';
+    margin-left: 49em ;
+}
+
+#menuNav{
+    margin-left: 49em ;
+    padding-top: 1em;
+    width: 43px;
+    height: 34px;
+}
+
+.imagenes_izq a{
+    margin-left: 53em;
+}
+
+.imagenes_derch a{
+    padding-left: 2em;
+}
+
+#aside button{
+    margin-left: 80em;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 25px;
+}
+
+/*footer*/
+#pie{
+    width: 1440px;
+    height: 1024px;
+    background-image: url('../images/image\ 16.png');
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.menuPie{
+    padding: 40px 0px 80px 0px;
+    margin: 0px;
+}
+
+.menuPie span{
+    margin: 0px 20px;
+    font-size: larger;
+}
+
+#redes_sociales img{
+    width: 30px;
+    height: 30px; 
+    padding-right:10px;
+}
+
+#redes_sociales{
+    position: absolute;
+    margin-left: 70em;
+    margin-top: 44em;
+}
